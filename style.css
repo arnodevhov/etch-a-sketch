@@ -3,3 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.app {
+  max-width: 960px;
+
+  margin: 40px auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.board-settings {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  background-color: aliceblue;
+  border: 1px solid #111;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 960px;
+}
+
+.board > div {
+  border: 1px solid #111;
+}
